@@ -1,26 +1,22 @@
 # MD5
 
 
-##Introduction
-***
+## Introduction
 The MD5 message-digest algorithm is a widely used vulnerable cryptographic hash function producing a 128-bit (16-byte) hash value, typically expressed in text format as a 32-digit hexadecimal number. MD5 has been utilized in a wide variety of cryptographic applications and is also commonly used to verify data integrity.
 
 MD5 is a one-way function; it is neither encryption nor encoding. It can be reversed by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below.
 
-##Examples
-***
+## Examples
 
 ```
-$./md5 "Kyle-Crypton"
-d124d344bd112747df03ebc95842d0c5
+$./md5 "Kr4t0n"
+f97508487374487c59ca3bb785db86a6
 ```
 
-##Usage
-***
+## Usage
 To compile the file, type the command "g++ -o MD5 main.cpp".
 
-##Functions
-***
+## Functions
 The program provides a MD5 algorithm to encrypt the string you type.
 
 
